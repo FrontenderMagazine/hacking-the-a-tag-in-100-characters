@@ -6,7 +6,7 @@
 попасться на крючок и передать свои личные данные мошенникам.
 
 Давайте я покажу вам пример. <a href="http://www.paypal.co.uk/"
-onclick="this.href='http://bit.ly/141nisR'">Эта ссылка должна привести вас на
+onclick="this.href='demo.html'">Эта ссылка должна привести вас на
 PayPal</a>.
 
 Вы увидите, что она **не ведет** на PayPal (*кроме Opera, где это поведение,
@@ -27,12 +27,12 @@ business.co.uk. Мне кажется, что посетители сайтов 
     // Код без сжатия   
     var links = document.links;   
     for(i in links) {
-      links[i].onclick = function(){ this.href = 'http://bit.ly/141nisR'; };
+      links[i].onclick = function(){ this.href = 'demo.html'; };
     }
 
     // Сжатый код (было 100 символов; сейчас осталось 67, не считая ссылки)   
     // Спасибо sgoel из HN
-    o=document.links;for(i in o){o[i].onclick=function(){this.href='//bit.ly/141nisR'}}
+    o=document.links;for(i in o){o[i].onclick=function(){this.href='demo.html'}}
 
 Также этот прием сложно отследить. Практически *все*, кто использует
 JavaScript/jQuery, будут вешать обработчик на тег \<a\>, а это уже не

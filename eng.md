@@ -6,8 +6,7 @@ but rest assured, it can trick customers into giving in their details to
 fraudsters.
 
 Let me show you an example. <a href="http://www.paypal.co.uk/"
-onclick="this.href='http://bit.ly/141nisR'">This link should take you to
-PayPal</a>.
+onclick="this.href='demo.html'">This link should take you to PayPal</a>.
 
 You'll see that you **do not** end up on PayPal (*except on Opera, where it
 appears to have been fixed*). That's because when you clicked on the link, I
@@ -26,13 +25,13 @@ Let's take a look at the JavaScript:
     var links = document.links;
     for(i in links) {
       links[i].onclick = function(){
-          this.href = 'http://bit.ly/141nisR';
+          this.href = 'demo.html';
       };
     }
 
     // Compressed (was 100; now 67 characters exc. the link)
     // Thanks to sgoel from HN
-    o=document.links;for(i in o){o[i].onclick=function(){this.href='//bit.ly/141nisR'}}
+    o=document.links;for(i in o){o[i].onclick=function(){this.href='demo.html'}}
 
 It's also very difficult to detect. Almost *everyone* who uses
 JavaScript/jQuery will bind an event to an \<a\> tag, so it's not as simple as
