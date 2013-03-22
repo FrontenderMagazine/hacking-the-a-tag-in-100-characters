@@ -64,4 +64,7 @@ easy way for fraudsters to victimize internet users.
 *Update (19/3)* — I've suggested the fix to Firefox, and waiting for a
 response.
 
+*Update (20/3)* — Rumours have circulated that Google Chrome will release
+a fix, though I'm yet to hear confirmation.
+
 [1]: http://www.reddit.com/user/abadidea
