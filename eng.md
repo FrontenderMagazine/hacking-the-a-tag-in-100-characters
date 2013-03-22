@@ -1,4 +1,4 @@
-# Hacking the <a> tag in 100 characters
+# Hacking the `<a>` tag in 100 characters
 
 A short while ago, I discovered that JavaScript allows you to **change the `<a>`
 href *after* you click on it**. It may not seem that serious at first glance,
@@ -14,7 +14,7 @@ ran some code that changed the *href* attribute and, surprisingly, the browser
 sent me to the *new link*. **That shouldn't happen.** Website visitors (and
 perhaps most tech-savvy people) can and will presume where they end up could
 just be a genuine redirection from, in this case, PayPal. Last year, PayPal
-redirected their UK homepage to paypal-business.co.uk for months. My
+redirected their UK homepage to [paypal-business.co.uk][1] for months. My
 assumption is website visitors have grown accustom to redirections, and if
 this flaw acts as such, it can pose a real threat <s>to what I call Phishing
 2.0</s>.
@@ -54,7 +54,7 @@ masking it), and for that reason, it should be disabled. It's not worth
 internet users being victims of fraud and theft.</s>
 
 *Update (19/3)* — My new pledge is to **warn users if the location of a link
-changes to a different domain after they click on it** ([+1 to abididea][1]).
+changes to a different domain after they click on it** ([+1 to abididea][2]).
 Sites like Google and Facebook can continue operating normally as they use the
 same domain, the internet doesn't break, and it eliminates the possibility of
 phishing. Everyone wins (except phishers, of course!). I **need your help** to
@@ -67,4 +67,5 @@ response.
 *Update (20/3)* — Rumours have circulated that Google Chrome will release
 a fix, though I'm yet to hear confirmation.
 
-[1]: http://www.reddit.com/user/abadidea
+[1]: http://paypal-business.co.uk/
+[2]: http://www.reddit.com/user/abadidea
