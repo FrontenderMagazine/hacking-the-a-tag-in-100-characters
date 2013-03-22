@@ -1,4 +1,4 @@
-# Hacking the `<a>` tag in 100 characters
+# Hacking the <a> tag in 100 characters
 
 A short while ago, I discovered that JavaScript allows you to **change the `<a>`
 href *after* you click on it**. It may not seem that serious at first glance,
