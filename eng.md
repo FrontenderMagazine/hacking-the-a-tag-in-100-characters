@@ -43,7 +43,7 @@ to update JavaScript (particularly embeddable), I would say that tools such as
 McAfeeSecure and PhishTank won't be able to keep up with phishing websites up
 to the second.
 
-<s>As it shows no real benefit, I'm pledging to World Wide Web Consortium (W3C)
+<s>As it shows no real benefit, I'm pledging to [World Wide Web Consortium (W3C)][2]
 and major browsers to disable the option to change the *href* attribute
 **after an onclick event**. It is an incredibly simple interpreter flaw, and
 whilst it may seem normal to some, it can be used for ill-fated purposes
@@ -54,7 +54,7 @@ masking it), and for that reason, it should be disabled. It's not worth
 internet users being victims of fraud and theft.</s>
 
 *Update (19/3)* — My new pledge is to **warn users if the location of a link
-changes to a different domain after they click on it** ([+1 to abididea][2]).
+changes to a different domain after they click on it** ([+1 to abididea][3]).
 Sites like Google and Facebook can continue operating normally as they use the
 same domain, the internet doesn't break, and it eliminates the possibility of
 phishing. Everyone wins (except phishers, of course!). I **need your help** to
@@ -68,4 +68,5 @@ response.
 a fix, though I'm yet to hear confirmation.
 
 [1]: http://paypal-business.co.uk/
-[2]: http://www.reddit.com/user/abadidea
+[2]: http://w3c.org/
+[3]: http://www.reddit.com/user/abadidea
