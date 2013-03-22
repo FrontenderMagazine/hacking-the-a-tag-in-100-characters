@@ -1,6 +1,6 @@
-# Hacking the \<a\> tag in 100 characters
+# Hacking the `<a>` tag in 100 characters
 
-A short while ago, I discovered that JavaScript allows you to **change the \<a\>
+A short while ago, I discovered that JavaScript allows you to **change the `<a>`
 href *after* you click on it**. It may not seem that serious at first glance,
 but rest assured, it can trick customers into giving in their details to
 fraudsters.
@@ -34,8 +34,8 @@ Let's take a look at the JavaScript:
     o=document.links;for(i in o){o[i].onclick=function(){this.href='demo.html'}}
 
 It's also very difficult to detect. Almost *everyone* who uses
-JavaScript/jQuery will bind an event to an \<a\> tag, so it's not as simple as
-unbinding every \<a\> onclick function. It's very much possible to wrap the code
+JavaScript/jQuery will bind an event to an `<a>` tag, so it's not as simple as
+unbinding every `<a>` onclick function. It's very much possible to wrap the code
 above to a *setTimeout* to bypass whatever solution can be found. Any half-
 decent hacker can make a computer virus or embeddable JavaScript code that can
 inject this code alongside another piece of software. As it's incredibly easy
@@ -61,7 +61,7 @@ phishing. Everyone wins (except phishers, of course!). I **need your help** to
 make major browsers adopt this as quickly as possible. Let's make it one less
 easy way for fraudsters to victimize internet users.
 
-*Update (19/3)* — I've suggested the fix to Firefox, and waiting for a 
+*Update (19/3)* — I've suggested the fix to Firefox, and waiting for a
 response.
 
 [1]: http://www.reddit.com/user/abadidea
